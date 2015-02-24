@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="fr.ecosyndic.ecosyndic" >
+
+    <!--
+ The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but are recommended.
+    -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logi"
+        android:label="@string/app_name"
+        android:theme="@style/CustomActionBarTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/monappli" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ContactsActivity"
+            android:label="@string/monappli"
+            android:parentActivityName=".MainActivity"
+            android:uiOptions="splitActionBarWhenNarrow" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="fr.ecosyndic.ecosyndic.MainActivity" />
+        </activity>
+        <activity
+            android:name=".TelephoneActivity"
+            android:label="@string/monappli"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="fr.ecosyndic.ecosyndic.MainActivity" />
+        </activity>
+        <activity
+            android:name=".EmailActivity"
+            android:label="@string/monappli"
+            android:parentActivityName=".ContactsActivity"
+            android:uiOptions="splitActionBarWhenNarrow" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="fr.ecosyndic.ecosyndic.ContactsActivity" />
+        </activity>
+        <activity
+            android:name=".MentionsActivity"
+            android:label="@string/monappli"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="fr.ecosyndic.ecosyndic.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

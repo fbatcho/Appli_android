@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="search" type="id">search</item>
+    <item name="price" type="id">price</item>
+    <item name="thumbnail" type="id">thumbnail</item>
+    <item name="nom" type="id">nom</item>
+    <item name="listService" type="id">listService</item>
+</resources>

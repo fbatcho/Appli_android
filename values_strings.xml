@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ecosyndic</string>
+    <string name="action_settings">Settings</string>
+    <string name="ecosyndic">Ecosyndic - Agence du faubourg</string>
+    <string name="contacts">Mon Agence</string>
+    <string name="nous_appeler">Mes Services</string>
+    <string name="se_connecter">Mon Espace Client</string>
+    <string name="adresse_de_l_agence_">Adresse de l\'agence :</string>
+    <string name="_rue_du_faubourg_poisonni_re_parisix">39 rue du Faubourg Poisonnière ParisIX</string>
+    <string name="t_l_phone_et_mail_g_n_ral_">Téléphone - mail  :</string>
+    <string name="_contact_ecosyndic_fr">01 55 33 12 80 - contact@ecosyndic.fr</string>
+    <string name="horaires">Horaires :</string>
+    <string name="du_lundi_au_vendredi_de_h_h">Du Lundi au Vendredi de 10h à 17h</string>
+    <string name="envoyer_un_mail">Envoyer un mail</string>
+    <string name="title_activity_contact">Contact</string>
+    <string name="title_activity_google_maps">Map</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="provider_enabled">The provider %s is now enabled</string>
+    <string name="provider_disabled">The provider %s is now disabled</string>
+    <string name="provider_new_status">The provider %1$s has now a new status %2$s</string>
+    <string name="new_location">New Location : Latitude = %1$s, Longitude = %2$s, Altitude = %3$s avec une précision de %4$s mètres </string>
+    <string name="Vente">Medium Text</string>
+    <string name="title_activity_rechereche_vente">RecherecheVente</string>
+    <string name="valider">Valider</string>
+    <string name="annuler">Annuler</string>
+    <string name="acces_au_service_client">Accéder au service client</string>
+    <string name="title_activity_telephone">Nous appeler</string>
+    <string name="title_activity_adaptater_de_liste">AdaptaterDeListe</string>
+    <string name="title_activity_service">Service</string>
+    <string name="name">name</string>
+    <string name="image">image</string>
+    <string name="new_text">New Text</string>
+    <string name="aucune_selection">Aucune sélection</string>
+    <string name="appeler">Appeler</string>
+    <string name="choisir_le_service">Sélectionner le service :</string>
+    <string name="title_activity_email">EmailActivity</string>
+    <string name="envoyer">Envoyer</string>
+    <string name="menu_icon">icon</string>
+    <string name="quitter">Quitter</string>
+    <string name="texte"> - </string>
+    <string name="textemail"> - </string>
+    <string name="monappli">Mon Eco\' Appli</string>
+    <string name="logo">logo</string>
+    <string name="fond">fond</string>
+    <string name="title_activity_mentions">Mentions</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="mentions_l_gales">Mentions Légales</string>
+    <string name="informations">info</string>
+    <string name="mention">mention</string>
+
+
+</resources>

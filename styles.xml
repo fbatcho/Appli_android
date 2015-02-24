@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme"
+        parent="android:Theme.Holo.Light.DarkActionBar">
+
+    </style>
+    <!-- the theme applied to the application or activity -->
+    <style name="CustomActionBarTheme"
+        parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <!-- ActionBar styles -->
+    <style name="MyActionBar"
+        parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">#FF003217</item>
+    </style>
+    <style name="BackGroundImageView">
+        <item name="android:alpha">0.7</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:src">@drawable/fondecran</item>
+    </style>
+</resources>

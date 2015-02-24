@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    >
+
+    <ImageView
+        style="@style/BackGroundImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/fond" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:text="@string/nous_appeler"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:text="@string/choisir_le_service"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/textView"
+        android:layout_below="@+id/title"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spin"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="@string/valider"
+        android:id="@+id/valider"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#000000"
+        android:background="#FFFFFF"
+        android:layout_below="@+id/spin"
+        android:layout_centerHorizontal="true" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:id="@+id/relativeLayout"
+        android:layout_alignParentBottom="true">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/aucune_selection"
+            android:id="@+id/information"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textColor="#ff000000"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+           />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="@string/envoyer"
+            android:id="@+id/env"
+            android:textColor="#000000"
+            android:background="@null"
+            android:drawableLeft="@drawable/mail"
+            android:layout_above="@+id/appel"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="@string/appeler"
+            android:id="@+id/appel"
+            android:textColor="#000000"
+            android:background="@null"
+            android:drawableLeft="@drawable/call"
+            android:layout_marginBottom="52dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/env"
+            android:layout_alignStart="@+id/env" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

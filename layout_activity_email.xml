@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:text="@string/envoyer_un_mail"
+        android:textColor="#ffff6b21"
+        android:textSize="25sp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp" />
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:text="@string/choisir_le_service"
+        android:textColor="#ff64e5ff"
+        android:textSize="25sp"
+        android:layout_marginLeft="10dp"/>
+
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="51dp"
+        android:id="@+id/spin"
+       />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="@string/valider"
+        android:id="@+id/valider"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ff468dff"
+        android:background="#ffffffff"
+        />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="375dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/aucune_selection"
+            android:id="@+id/information"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="18sp"
+            android:textColor="#ffcd97ff" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="@string/envoyer"
+            android:id="@+id/env"
+            android:layout_below="@+id/information"
+            android:layout_centerHorizontal="true"
+            android:textColor="#ffff0012"
+            android:background="#ffffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/texte"
+            android:id="@+id/titre"
+            android:layout_above="@+id/information"
+            android:layout_centerHorizontal="true"
+            android:textColor="#ffcd97ff"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>
